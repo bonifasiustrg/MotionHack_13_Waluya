@@ -7,11 +7,317 @@
     tools:context=".konsultasi_dokter">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="21dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/arrow_1"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:id="@+id/btn_back_arrow"
+        android:layout_width="17dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_1" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Konsultasi Dokter"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_back_arrow"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_arrow"
+        app:layout_constraintTop_toTopOf="@+id/btn_back_arrow" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_search"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        app:endIconDrawable="@drawable/ic_search"
+        app:endIconMode="custom"
+
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        app:hintEnabled="false"
+        app:boxBackgroundMode="none"
+        android:backgroundTint="#FFF8F3"
+        android:background="@drawable/rectangle_radius20"
+        app:boxStrokeColor="@color/white"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:boxBackgroundColor="@color/white"
+        app:endIconTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back_arrow">
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingStart="16dp"
+            android:paddingBottom="0dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:hint="Cari yang anda perlukan"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Dokter 1-->
+    <ImageView
+        android:id="@+id/dokter1"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_search"
+        app:srcCompat="@drawable/dokter" />
+
+    <TextView
+        android:id="@+id/nama_dokter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dokter Lorem Ipsum"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/dokter1"
+        app:layout_constraintTop_toTopOf="@+id/dokter1" />
+
+    <TextView
+        android:id="@+id/deskripsi_dokter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spesialis anak"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/nama_dokter1"
+        app:layout_constraintTop_toBottomOf="@+id/nama_dokter1" />
+
+    <TextView
+        android:id="@+id/gratis1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gratis"
+        android:textColor="@color/hijau"
+        android:layout_marginTop="20dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/deskripsi_dokter1"
+        app:layout_constraintTop_toBottomOf="@+id/deskripsi_dokter1" />
+
+    <ImageView
+        android:id="@+id/blue_box1a"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/dokter1"
+        app:layout_constraintTop_toBottomOf="@+id/dokter1"
+        app:srcCompat="@drawable/blue_box" />
+    <ImageView
+        android:id="@+id/like1a"
+        android:layout_width="8dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1a"
+        app:layout_constraintStart_toStartOf="@+id/blue_box1a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1a"
+        app:srcCompat="@drawable/like" />
+    <TextView
+        android:id="@+id/teks1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90%"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        android:layout_marginStart="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1a"
+        app:layout_constraintStart_toEndOf="@+id/like1a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1a" />
+
+    <ImageView
+        android:id="@+id/blue_box1b"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1a"
+        app:layout_constraintStart_toEndOf="@+id/blue_box1a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1a"
+        app:srcCompat="@drawable/blue_box" />
+    <ImageView
+        android:id="@+id/tas1b"
+        android:layout_width="8dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1b"
+        app:layout_constraintStart_toStartOf="@+id/blue_box1b"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1b"
+        app:srcCompat="@drawable/tas" />
+    <TextView
+        android:id="@+id/teks1b"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="8 Tahun"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1b"
+        app:layout_constraintStart_toEndOf="@+id/tas1b"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1b" />
+
+    <ImageView
+        android:id="@+id/blue_box1c"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1a"
+        app:srcCompat="@drawable/blue_box" />
+
+    <TextView
+        android:id="@+id/teks1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box1c"
+        app:layout_constraintEnd_toEndOf="@+id/blue_box1c"
+        app:layout_constraintStart_toStartOf="@+id/blue_box1c"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1c" />
+
+    <!--Dokter 2-->
+    <ImageView
+        android:id="@+id/dokter2"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toStartOf="@+id/dokter1"
+        app:layout_constraintTop_toBottomOf="@+id/dokter1"
+        app:srcCompat="@drawable/dokter" />
+
+    <TextView
+        android:id="@+id/nama_dokter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dokter Lorem Ipsum"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/dokter2"
+        app:layout_constraintTop_toTopOf="@+id/dokter2" />
+
+    <TextView
+        android:id="@+id/deskripsi_dokter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spesialis anak"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/nama_dokter2"
+        app:layout_constraintTop_toBottomOf="@+id/nama_dokter2" />
+
+    <TextView
+        android:id="@+id/gratis2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gratis"
+        android:textColor="@color/hijau"
+        android:layout_marginTop="20dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/deskripsi_dokter2"
+        app:layout_constraintTop_toBottomOf="@+id/deskripsi_dokter2" />
+
+    <ImageView
+        android:id="@+id/blue_box2a"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="@+id/dokter2"
+        app:layout_constraintTop_toBottomOf="@+id/dokter2"
+        app:srcCompat="@drawable/blue_box" />
+
+    <ImageView
+        android:id="@+id/like2a"
+        android:layout_width="8dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2a"
+        app:layout_constraintStart_toStartOf="@+id/blue_box2a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box1a"
+        app:layout_constraintVertical_bias="0.971"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:id="@+id/teks2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90%"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        android:layout_marginStart="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2a"
+        app:layout_constraintStart_toEndOf="@+id/like2a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2a" />
+
+    <ImageView
+        android:id="@+id/blue_box2b"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2a"
+        app:layout_constraintStart_toEndOf="@+id/blue_box2a"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2a"
+        app:srcCompat="@drawable/blue_box" />
+    <ImageView
+        android:id="@+id/tas2b"
+        android:layout_width="8dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2b"
+        app:layout_constraintStart_toStartOf="@+id/blue_box2b"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2b"
+        app:srcCompat="@drawable/tas" />
+    <TextView
+        android:id="@+id/teks2b"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="8 Tahun"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2b"
+        app:layout_constraintStart_toEndOf="@+id/tas2b"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2b" />
+
+    <ImageView
+        android:id="@+id/blue_box2c"
+        android:layout_width="49dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2a"
+        app:srcCompat="@drawable/blue_box" />
+
+    <TextView
+        android:id="@+id/teks2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textColor="@color/white"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_box2c"
+        app:layout_constraintEnd_toEndOf="@+id/blue_box2c"
+        app:layout_constraintStart_toStartOf="@+id/blue_box2c"
+        app:layout_constraintTop_toTopOf="@+id/blue_box2c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

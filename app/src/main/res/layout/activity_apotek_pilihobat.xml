@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apotek_pilihobat">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="17dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Covid-19"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/keranjang1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/keranjang" />
+
+    <ImageView
+        android:id="@+id/obat1a"
+        android:layout_width="236dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/kotak_obat" />
+
+    <ImageView
+        android:id="@+id/obat1b"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        app:layout_constraintEnd_toEndOf="@+id/obat1a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/obat1a"
+        app:srcCompat="@drawable/obat" />
+
+    <TextView
+        android:id="@+id/textView_1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Decolgen 4 Tablet"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@+id/obat1b"
+        app:layout_constraintTop_toBottomOf="@+id/obat1b" />
+
+    <TextView
+        android:id="@+id/textView_1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setiap Strip"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_1a"
+        app:layout_constraintTop_toBottomOf="@+id/textView_1a" />
+
+    <TextView
+        android:id="@+id/textView_1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rp10.000"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_1b"
+        app:layout_constraintTop_toBottomOf="@+id/textView_1b" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_1c"
+        app:layout_constraintTop_toBottomOf="@+id/textView_1c"
+        app:srcCompat="@drawable/tambah" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
+        app:layout_constraintEnd_toStartOf="@+id/obat2a"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:srcCompat="@drawable/kurang" />
+
+    <!--222-->
+
+    <ImageView
+        android:id="@+id/obat2a"
+        android:layout_width="236dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="@+id/obat1a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/obat1a"
+        app:srcCompat="@drawable/kotak_obat" />
+
+    <ImageView
+        android:id="@+id/obat2b"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        app:layout_constraintEnd_toEndOf="@+id/obat2a"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/obat2a"
+        app:srcCompat="@drawable/obat" />
+
+    <TextView
+        android:id="@+id/textView_2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Decolgen 4 Tablet"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@+id/obat2b"
+        app:layout_constraintTop_toBottomOf="@+id/obat2b" />
+
+    <TextView
+        android:id="@+id/textView_2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setiap Strip"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_2a"
+        app:layout_constraintTop_toBottomOf="@+id/textView_2a" />
+
+    <TextView
+        android:id="@+id/textView_2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rp10.000"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_2b"
+        app:layout_constraintTop_toBottomOf="@+id/textView_2b" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="141dp"
+        android:layout_height="24dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_2c"
+        app:layout_constraintTop_toBottomOf="@+id/textView_2c"
+        app:srcCompat="@drawable/rectangle_144" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah ke Keranjang"
+        android:textColor="@color/biru_muda"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottom" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:srcCompat="@drawable/kotak_biru" />
+
+    <TextView
+        android:id="@+id/textView_kotakbiru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Total Pembayaran"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView23"
+        app:layout_constraintStart_toStartOf="@+id/imageView23" />
+
+    <TextView
+        android:id="@+id/textView_kotakbiru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bayar"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

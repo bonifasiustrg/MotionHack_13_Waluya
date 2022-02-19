@@ -4,9 +4,36 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2247863247863248" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable/hospital.xml" value="0.2247863247863248" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable/rectangle_134.xml" value="0.12179487179487179" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable/rectangle_radius20.xml" value="0.12179487179487179" />
         <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable/rounded_button.xml" value="0.2247863247863248" />
-        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_konsultasi_dokter.xml" value="0.264" />
-        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/drawable/search_bar.xml" value="0.536" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_apotek.xml" value="0.4" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_apotek_bayarobat.xml" value="0.2" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_apotek_pilihobat.xml" value="0.264" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_berita.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_covid19.xml" value="0.264" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_darurat.xml" value="0.2" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_konsultasi_dokter.xml" value="0.4" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_konsultasidokter_chat.xml" value="0.10854700854700855" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_konsultasidokter_pembayaran.xml" value="0.19914529914529913" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_layanan_medis.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_main2.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_medis_detail.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_medis_layanan.xml" value="0.4" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_reminder.xml" value="0.264" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_reminder_saveobat.xml" value="0.536" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_reminder_tambahobat.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_splash.xml" value="0.4" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/activity_welcome.xml" value="0.536" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/fragment_home.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/fragment_notifications.xml" value="0.20811965811965813" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/fragment_profile.xml" value="0.20811965811965813" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/layout/fragment_transaksi.xml" value="0.20811965811965813" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21153846153846154" />
+        <entry key="..\:/MOTION LAB/waluya/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2247863247863248" />
       </map>
     </option>
   </component>

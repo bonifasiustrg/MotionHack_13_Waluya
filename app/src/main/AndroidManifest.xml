@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.com.waluya">
+    package="id.com.waluya" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Waluya">
-        <activity
-            android:name=".konsultasi_dokter"
-            android:exported="false" />
+        android:theme="@style/Theme.Waluya" >
         <activity
             android:name=".MainActivity"
+            android:label="@string/title_activity_main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +19,62 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".reminder_tambahobat"
+            android:exported="false" />
+        <activity
+            android:name=".reminder_saveobat"
+            android:exported="false" />
+        <activity
+            android:name=".apotek_bayarobat"
+            android:exported="false" />
+        <activity
+            android:name=".apotek_pilihobat"
+            android:exported="false" />
+        <activity
+            android:name=".medis_detail"
+            android:exported="false" />
+        <activity
+            android:name=".medis_layanan"
+            android:exported="false" />
+        <activity
+            android:name=".berita"
+            android:exported="false" />
+        <activity
+            android:name=".konsultasidokter_chat"
+            android:exported="false" />
+        <activity
+            android:name=".konsultasidokter_pembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="false" />
+        <activity
+            android:name=".apotek"
+            android:exported="false" />
+        <activity
+            android:name=".reminder"
+            android:exported="false" />
+        <activity
+            android:name=".covid19"
+            android:exported="false" />
+        <activity
+            android:name=".darurat"
+            android:exported="false" />
+        <activity
+            android:name=".layanan_medis"
+            android:exported="false" />
+        <activity
+            android:name=".konsultasi_dokter"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".MainActivity2"-->
+<!--            android:exported="true" >-->
+
+<!--        </activity>-->
     </application>
 
 </manifest>

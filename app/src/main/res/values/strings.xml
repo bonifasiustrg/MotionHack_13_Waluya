@@ -1,3 +1,50 @@
 <resources>
     <string name="app_name">waluya</string>
+    <string name="fotokan_resep1">Fotokan resep obat Anda dan kami siapkan untuk Anda</string>
+    <string name="fotokan_resep2">Beli obat tidak perlu antri dan menunggu  di tempat</string>
+    <string name="title_activity_login">login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--    homepage-->
+    <string name="judul_berita">BPOM Ungkap Daftar Kosmetik Berbahaya Mengandung Merkuri</string>
+
+    <!--welcome string-->
+    <string name="intro">Selamat Datang di Waluya</string>
+    <string name="desK_welcome">Kami bertekad untuk membantu Anda dalam meningkatkan kualitas kesehatan Anda</string>
+
+    <!--darurat string-->
+    <string name="rumah_sakit_terdekat">Rumah sakit terdekat dan tersedia di sekitar Anda</string>
+    <string name="nama_rumah_sakit">Rumah Sakit Umum Pusat Dr. Sarjito</string>
+    <string name="track">Tracking Ambulance</string>
+
+    <!--covid19-->
+    <string name="tgl">Update Terakhir : 17–02-2022 23.48</string>
+    <string name="positif">Positif 5.030.002</string>
+    <string name="Meninggal">Meninggal 145.828</string>
+    <string name="Sembuh">Sembuh 4.414.306</string>
+    <string name="berita_covid">    Positif Covid-19 RI Tembus 63.956 Kasus, Meninggal Dunia 206 Pasien</string>
+
+
+    <!--layanan medis-->
+    <string name="textView_medis1b">Berikut ini tempat-tempat medis terdekat dari tempat Anda</string>
+    <string name="medis_rumahsakit">Rumah Sakit Umum Pusat Dr. Sardjito</string>
+    <string name="desk_rumah_sakit">Jalan Kesehatan Sendowo Sekip No. 1, Senolowo, Sinduadi, Kec. Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</string>
+
+    <!--    reminder-->
+    <string name="tidak_ada">Tidak ada jadwal minum obat</string>
+    <string name="buat_jadwal">Buat jadwal minum obat Anda. Kami akan mambantu Anda untuk mengingatkan minum obat.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

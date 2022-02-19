@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".medis_layanan">
+
+    <ImageView
+        android:id="@+id/btn_back_arrow"
+        android:layout_width="17dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Layanan Medis"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_back_arrow"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_arrow"
+        app:layout_constraintTop_toTopOf="@+id/btn_back_arrow" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        android:drawableStart="@drawable/black_map"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:text="Jl Kaliurang km 5.6"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_medis1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Tempat Medis"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btn_back_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back_arrow" />
+
+    <TextView
+        android:id="@+id/textView_medis1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_medis1b"
+        android:textColor="@color/black"
+        android:textSize="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_medis1a"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView_medis1a"
+        app:layout_constraintTop_toBottomOf="@+id/textView_medis1a" />
+
+    <!--    rumah sakit 1-->
+    <ImageView
+        android:id="@+id/hospital"
+        android:layout_width="119dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_medis1b"
+        app:layout_constraintTop_toBottomOf="@+id/textView_medis1b"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/textView_hospital"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/medis_rumahsakit"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/hospital"
+        app:layout_constraintTop_toTopOf="@+id/hospital" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/desk_rumah_sakit"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_hospital"
+        app:layout_constraintTop_toBottomOf="@+id/textView_hospital" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="-5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hospital"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:srcCompat="@drawable/kotak_biru_medis" />
+
+    <TextView
+        android:id="@+id/textView17b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:text="Info Tempat Medis"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <!--    rumah sakit 3-->
+    <ImageView
+        android:id="@+id/hospital3"
+        android:layout_width="119dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/hospital2"
+        app:layout_constraintTop_toBottomOf="@+id/hospital2"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/textView_hospital3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/medis_rumahsakit"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/hospital3"
+        app:layout_constraintTop_toTopOf="@+id/hospital3" />
+
+    <TextView
+        android:id="@+id/textView17_3b"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/desk_rumah_sakit"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_hospital3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_hospital3" />
+
+    <ImageView
+        android:id="@+id/imageView18_3a"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hospital3"
+        app:layout_constraintEnd_toEndOf="@+id/textView17_3b"
+        app:srcCompat="@drawable/kotak_biru_medis" />
+
+    <TextView
+        android:id="@+id/textView17_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:text="Info Tempat Medis"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18_3a"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18_3a"
+        app:layout_constraintStart_toStartOf="@+id/imageView18_3a"
+        app:layout_constraintTop_toTopOf="@+id/imageView18_3a" />
+    <!--    rumah sakit 2-->
+    <ImageView
+        android:id="@+id/hospital2"
+        android:layout_width="119dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/hospital"
+        app:layout_constraintTop_toBottomOf="@+id/hospital"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/textView_hospital2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/medis_rumahsakit"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/hospital2"
+        app:layout_constraintTop_toTopOf="@+id/hospital2" />
+
+    <TextView
+        android:id="@+id/textView16b"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/desk_rumah_sakit"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_hospital2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_hospital2" />
+
+    <ImageView
+        android:id="@+id/imageView18a"
+        android:layout_width="115dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="-5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hospital2"
+        app:layout_constraintEnd_toEndOf="@+id/textView16b"
+        app:srcCompat="@drawable/kotak_biru_medis" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:text="Info Tempat Medis"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18a"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18a"
+        app:layout_constraintStart_toStartOf="@+id/imageView18a"
+        app:layout_constraintTop_toTopOf="@+id/imageView18a" />
+
+    <!--    layanan medis-->
+    <TextView
+        android:id="@+id/textView_vaksin1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tempat Medis"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/hospital3"
+        app:layout_constraintTop_toBottomOf="@+id/hospital3" />
+
+    <TextView
+        android:id="@+id/textView_vaksin1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_medis1b"
+        android:textColor="@color/black"
+        android:textSize="7dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_vaksin1a"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView_vaksin1a"
+        app:layout_constraintTop_toBottomOf="@+id/textView_vaksin1a" />
+
+    <!--vaksin1-->
+    <ImageView
+        android:id="@+id/imageView27a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin1"
+        app:layout_constraintStart_toStartOf="@+id/vaksin1"
+        app:layout_constraintTop_toTopOf="@+id/vaksin1"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vaksin2"
+        app:layout_constraintEnd_toStartOf="@+id/vaksin2"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView18a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27a"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin1"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin1" />
+
+    <!--vaksin2-->
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin2"
+        app:layout_constraintStart_toStartOf="@+id/vaksin2"
+        app:layout_constraintTop_toTopOf="@+id/vaksin2"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_vaksin1b"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin2"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin2" />
+
+
+    <!--vaksin3-->
+    <ImageView
+        android:id="@+id/imageView27c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin3"
+        app:layout_constraintStart_toStartOf="@+id/vaksin3"
+        app:layout_constraintTop_toTopOf="@+id/vaksin3"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vaksin2"
+        app:layout_constraintStart_toEndOf="@+id/vaksin2"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView18c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27c"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin3"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin3" />
+
+    <!--    BARIS2-->
+
+    <!--vaksin1-->
+    <ImageView
+        android:id="@+id/imageView27a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin12"
+        app:layout_constraintStart_toStartOf="@+id/vaksin12"
+        app:layout_constraintTop_toTopOf="@+id/vaksin12"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vaksin22"
+        app:layout_constraintEnd_toStartOf="@+id/vaksin22"
+        app:layout_constraintTop_toTopOf="@+id/imageView272"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView18a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27a2"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin12"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin12" />
+
+    <!--vaksin2-->
+    <ImageView
+        android:id="@+id/imageView272"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin22"
+        app:layout_constraintStart_toStartOf="@+id/vaksin22"
+        app:layout_constraintTop_toTopOf="@+id/vaksin22"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin2"
+        app:layout_constraintStart_toStartOf="@+id/vaksin2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView182"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView272"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin22"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin22" />
+
+
+    <!--vaksin3-->
+    <ImageView
+        android:id="@+id/imageView27c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin32"
+        app:layout_constraintStart_toStartOf="@+id/vaksin32"
+        app:layout_constraintTop_toTopOf="@+id/vaksin32"
+        app:srcCompat="@drawable/kotak_biru_vaksin" />
+
+    <ImageView
+        android:id="@+id/vaksin32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vaksin22"
+        app:layout_constraintStart_toEndOf="@+id/vaksin22"
+        app:layout_constraintTop_toTopOf="@+id/imageView272"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vaksin" />
+
+    <TextView
+        android:id="@+id/textView18c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Vaksinasi"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27c2"
+        app:layout_constraintEnd_toEndOf="@+id/vaksin32"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/vaksin32" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView272"
+        app:srcCompat="@drawable/blue_outline_bar" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/biru_muda"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

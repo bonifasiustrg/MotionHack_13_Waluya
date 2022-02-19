@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".covid19">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="17dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Covid-19"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tgl"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView_box1"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_box2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_box2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_box2"
+        app:srcCompat="@drawable/rectangle_180" />
+
+    <TextView
+        android:id="@+id/textView_box1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/positif"
+        android:textColor="@color/oren"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_box1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_box1"
+        app:layout_constraintStart_toStartOf="@+id/imageView_box1"
+        app:layout_constraintTop_toTopOf="@+id/imageView_box1" />
+
+    <ImageView
+        android:id="@+id/imageView_box2"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/rectangle_180" />
+
+    <TextView
+        android:id="@+id/textView_box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Meninggal"
+        android:textColor="@color/merah"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_box2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_box2"
+        app:layout_constraintStart_toStartOf="@+id/imageView_box2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_box2" />
+
+    <ImageView
+        android:id="@+id/imageView_box3"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_box2"
+        app:layout_constraintStart_toEndOf="@+id/imageView_box2"
+        app:layout_constraintTop_toTopOf="@+id/imageView_box2"
+        app:srcCompat="@drawable/rectangle_180" />
+
+    <TextView
+        android:id="@+id/textView_box3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sembuh"
+        android:textColor="@color/hijau_muda"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_box3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_box3"
+        app:layout_constraintStart_toStartOf="@+id/imageView_box3"
+        app:layout_constraintTop_toTopOf="@+id/imageView_box3" />
+
+    <ImageView
+        android:id="@+id/imageView_diagram1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_box2"
+        app:srcCompat="@drawable/rectangle_87" />
+
+    <ImageView
+        android:id="@+id/imageView_diagram2"
+        android:layout_width="338dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_diagram1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_diagram1"
+        app:layout_constraintStart_toStartOf="@+id/imageView_diagram1"
+        app:layout_constraintTop_toTopOf="@+id/imageView_diagram1"
+        app:srcCompat="@drawable/diagram_covid" />
+
+<!--    BERITA COVID-->
+    <TextView
+        android:id="@+id/textView_berita"
+        android:layout_width="90dp"
+        android:layout_height="19dp"
+        android:text="Berita Covid"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView_diagram2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_diagram1" />
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/textView_berita"
+        app:layout_constraintTop_toBottomOf="@+id/textView_berita"
+        app:srcCompat="@drawable/kotak_berita" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:srcCompat="@drawable/berita_covid" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/berita_covid"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <!--    berita2-->
+
+    <ImageView
+        android:id="@+id/imageView17b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17"
+        app:srcCompat="@drawable/kotak_berita" />
+
+    <ImageView
+        android:id="@+id/imageView24b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17b"
+        app:layout_constraintStart_toStartOf="@+id/imageView17b"
+        app:layout_constraintTop_toTopOf="@+id/imageView17b"
+        app:srcCompat="@drawable/berita_covid" />
+
+    <TextView
+        android:id="@+id/textView15b"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/berita_covid"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17b"
+        app:layout_constraintStart_toStartOf="@+id/imageView17b"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24b" />
+<!--    SEBA SERBI-->
+    <TextView
+        android:id="@+id/textView_serbaserbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serba-serbi Covid19"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+
+    <ImageView
+        android:id="@+id/suntik"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tempat_tidur"
+        app:layout_constraintEnd_toStartOf="@+id/tempat_tidur"
+        app:layout_constraintTop_toTopOf="@+id/tempat_tidur"
+        app:srcCompat="@drawable/suntik" />
+
+    <TextView
+        android:id="@+id/textView_suntik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Vaksin"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/suntik"
+        app:layout_constraintStart_toStartOf="@+id/suntik"
+        app:layout_constraintTop_toBottomOf="@+id/suntik" />
+
+    <ImageView
+        android:id="@+id/tempat_tidur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_serbaserbi"
+        app:srcCompat="@drawable/tempat_tidur" />
+    <TextView
+        android:id="@+id/textView_tempat_tidur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari Tempat Isoman"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/tempat_tidur"
+        app:layout_constraintStart_toStartOf="@+id/tempat_tidur"
+        app:layout_constraintTop_toBottomOf="@+id/tempat_tidur" />
+
+    <ImageView
+        android:id="@+id/koper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tempat_tidur"
+        app:layout_constraintStart_toEndOf="@+id/tempat_tidur"
+        app:layout_constraintTop_toTopOf="@+id/tempat_tidur"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/koper" />
+
+    <TextView
+        android:id="@+id/textView_koper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Aturan Perjalanan"
+        android:textColor="@color/black"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/koper"
+        app:layout_constraintStart_toStartOf="@+id/koper"
+        app:layout_constraintTop_toBottomOf="@+id/koper" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
