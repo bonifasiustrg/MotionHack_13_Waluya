@@ -8,5 +8,5 @@ Business Analyst    : Putu Vidya Ananda Ratmayanti
 
 UI/UX               : Lasman Trimartua P. Simbolon
 
-Mobile Programming  : Bonifasius Tarigan
+Mobile Programmer  : Bonifasius Tarigan
 
