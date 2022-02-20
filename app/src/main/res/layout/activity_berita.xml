@@ -6,4 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".berita">
 
+    <ImageView
+        android:id="@+id/back_berita"
+        android:layout_width="17dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_1" />
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="BERITA COVID 19"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/back_berita"
+        app:layout_constraintStart_toEndOf="@+id/back_berita"
+        app:layout_constraintTop_toTopOf="@+id/back_berita" />
 </androidx.constraintlayout.widget.ConstraintLayout>

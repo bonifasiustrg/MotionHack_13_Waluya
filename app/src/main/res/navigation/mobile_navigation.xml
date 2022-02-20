@@ -14,17 +14,17 @@
     <fragment
         android:id="@+id/navigation_transaksi"
         android:name="id.com.waluya.ui.transaksi.TransaksiFragment"
-        android:label="@string/title_dashboard"
+        android:label="Transaksi"
         tools:layout="@layout/fragment_transaksi" />
 
     <fragment
         android:id="@+id/navigation_pesan"
         android:name="id.com.waluya.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="Pesan"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_profile"
         android:name="id.com.waluya.ui.profile.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

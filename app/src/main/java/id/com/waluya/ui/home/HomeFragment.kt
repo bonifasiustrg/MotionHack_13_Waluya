@@ -28,15 +28,6 @@ class HomeFragment : Fragment() {
             ViewModelProvider(this).get(HomeViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-
-//        val bind = FragmentHomeBinding.inflate(layoutInflater)
-//        bind.secondActivityBtn.setOnClickListener {
-//            val intent = Intent (this@HomeFragment.requireContext(), konsultasi_dokter::class.java)
-//            startActivity(intent)
-//        }
-//        return bind.root
 
         val bind = FragmentHomeBinding.inflate(layoutInflater)
         bind.textView2.setOnClickListener {
@@ -61,6 +52,10 @@ class HomeFragment : Fragment() {
         }
         bind.textView7.setOnClickListener {
             val intent = Intent (this@HomeFragment.requireContext(), apotek::class.java)
+            startActivity(intent)
+        }
+        bind.secondActivityBtn.setOnClickListener {
+            val intent = Intent (this@HomeFragment.requireContext(), berita::class.java)
             startActivity(intent)
         }
 
