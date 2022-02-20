@@ -31,11 +31,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <Button
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#00FFFFFF"
         android:text="Konsultasi Dokter"
         android:textColor="@color/black"
         android:textSize="9sp"
@@ -81,7 +82,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ambulance" />
 
-    <TextView
+    <Button
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,11 +90,13 @@
         android:text="Layanan Medis"
         android:textColor="@color/black"
         android:textSize="9sp"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/btn_layanan_medis"
         app:layout_constraintStart_toStartOf="@+id/btn_layanan_medis"
         app:layout_constraintTop_toBottomOf="@+id/btn_layanan_medis" />
 
-    <TextView
+    <Button
+        android:background="#00FFFFFF"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -116,7 +119,7 @@
         app:srcCompat="@drawable/covid" />
 
 
-    <TextView
+    <Button
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -124,6 +127,7 @@
         android:text="Covid-19"
         android:textColor="@color/black"
         android:textSize="9sp"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/btn_covid19"
         app:layout_constraintStart_toStartOf="@+id/btn_covid19"
         app:layout_constraintTop_toBottomOf="@+id/btn_covid19" />
@@ -139,7 +143,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/penginga" />
 
-    <TextView
+    <Button
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -147,6 +151,7 @@
         android:text="Pengingat Obat"
         android:textColor="@color/black"
         android:textSize="9sp"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/btn_pengingat_obat"
         app:layout_constraintStart_toStartOf="@+id/btn_pengingat_obat"
         app:layout_constraintTop_toBottomOf="@+id/btn_pengingat_obat" />
@@ -162,7 +167,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/apptek" />
 
-    <TextView
+    <Button
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -170,6 +175,7 @@
         android:text="Apotek"
         android:textColor="@color/black"
         android:textSize="9sp"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/btn_apotek"
         app:layout_constraintStart_toStartOf="@+id/btn_apotek"
         app:layout_constraintTop_toBottomOf="@+id/btn_apotek" />

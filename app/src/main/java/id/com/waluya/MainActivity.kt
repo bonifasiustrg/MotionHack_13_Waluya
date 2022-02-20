@@ -24,5 +24,6 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
 
         navView.setupWithNavController(navController)
+
     }
 }
